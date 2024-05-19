@@ -10,9 +10,8 @@ FOR i := 1 TO n DO
     isPrime[i] := TRUE;
 END_FOR;
 
-// Mark 0 and 1 as not prime
+// Mark 1 as not prime
 isPrime[1] := FALSE;
-isPrime[2] := TRUE;
 
 // Start the sieve algorithm
 FOR i := 2 TO n DO
